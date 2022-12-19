@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2E5E5;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #2B3A55;
+}
+
+p {
+  color: #B7BCE8;
+}
+
+#title {
+  background-color: #2B3A55;
+  color: #CE7777;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.navicolor {
+  color: #CE7777;
+}
+
+.navicolor:hover {
+  color: #E8C4C4;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 415px;
+  /* left: 24%;  */
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #F2E5E5;
+  position: relative;
+  z-index: 1;
+  /* margin-top: -200px; */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #CE7777;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #2B3A55;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #CE7777;
+  color: #2B3A55;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #CE7777;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-tag {
+  color: #2B3A55;
+}
+
+.btn-price {
+  background-color: #2B3A55;
+  border-color: #2B3A55;
+}
+
+.btn-price:hover {
+  background-color: #CE7777;
+  border-color: #2B3A55;
+}
+
+.pricing-col {
+  padding: 3%;
+}
+
+/* call to action */
+#cta{
+  background-color: #E8C4C4;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.media-icons{
+  margin: 20px 10px;
+}
+
+/* media querrys */
+
+@media (max-width: 995px) {
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
